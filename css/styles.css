@@ -54,12 +54,11 @@ img {
    --sibtitle-bg-color: #E7E9FC;
    --helper-text-color: #8e8f99;
 
-
             }
 body{
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
-       font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
            }
         .conteiner {
@@ -71,8 +70,7 @@ body{
             padding: 0 15px 0 15px;
             margin: auto;
             padding: auto;
-            outline: 1px red;
-        }
+            }
 
        ul{list-style: none;    }
     .link {text-decoration: none;}
@@ -106,26 +104,19 @@ body{
 }
 .link:hover,.link:focus {color: var(--link-color)} 
     
-.auth-nav list {
-        color:var(--primary-text-color);
-   }
 .adresinfo:hover,.adresinfo:focus {color:var(--link-color);
 text-decoration: none;}
  
 .hero {
     padding: 192px 0;
     background-color: var(--primary-text-color);
-    /* text-align: center; */
-    outline: 1px red;
-  }
+    }
   .title{
     font-weight: 600; 
     color: var(--title-text-color);
   }
 .hero-title{ 
-    /* margin-top: 0;
-    margin-bottom: 0; */
-     font-size: 56px;
+    font-size: 56px;
     line-height: 1.07;
     text-align: center;
 letter-spacing: 0.02em;
@@ -133,8 +124,6 @@ color: var(--primary-white-color);
 margin: 0 auto;
 width: 496px;
 margin-bottom: 48px;
-outline: 1px red;
-background-color: aliceblue;
     }
 .button-order {
     display: block;

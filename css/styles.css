@@ -109,7 +109,10 @@ text-decoration: none;}
  .menu.nav {
     margin-right: avto;
  }
+.page-nav .page-list + .nav-link 
+{margin-left: 40px;
 
+}
 .hero {
     padding: 192px 0;
     background-color: var(--primary-text-color);

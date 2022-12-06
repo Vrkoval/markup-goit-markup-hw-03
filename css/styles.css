@@ -153,7 +153,8 @@ background-color: var(--link-color);}
     transform: scale(0);
 }
 . section section-feature {
-    outline 1px color: tomato;
+    /* outline 1px color: tomato; */
+    padding: 120px 0 120px 0;
 }   
 .section-title {
     font-size: 20px;

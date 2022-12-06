@@ -1,4 +1,4 @@
-/* *,
+*,
 *::before,
 *::after {
 	box-sizing: border-box;
@@ -14,13 +14,15 @@ p,
 ul {
 	margin: 0;
 	padding: 0;
-} */
+}
 
-html {box-sizing: border-box;}
+/* html {box-sizing: border-box;}
 *::before,
 *::after {
 	box-sizing: inherit;
-}
+} */
+
+
 img {
 	display: block;
 	width: 100%;
@@ -59,9 +61,7 @@ body{
     color: var(--primary-text-color);
        font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    outline: 1px red;
-
-        }
+           }
         .conteiner {
             display: flex;
             flex-wrap: wrap;
@@ -115,7 +115,7 @@ text-decoration: none;}
 .hero {
     padding: 192px 0;
     background-color: var(--primary-text-color);
-    text-align: center;
+    /* text-align: center; */
     outline: 1px red;
   }
   .title{
@@ -123,20 +123,20 @@ text-decoration: none;}
     color: var(--title-text-color);
   }
 .hero-title{ 
-    margin-top: 0;
-    margin-bottom: 0;
+    /* margin-top: 0;
+    margin-bottom: 0; */
      font-size: 56px;
     line-height: 1.07;
     text-align: center;
 letter-spacing: 0.02em;
 color: var(--primary-white-color);
-margin: auto;
-width: 492px;
+margin: 0 auto;
+width: 496px;
 margin-bottom: 48px;
 outline: 1px red;
 background-color: aliceblue;
     }
-.button {
+.button-order {
     display: block;
  color: var(--primary-white-color);
         background-color: var(--link-color);  

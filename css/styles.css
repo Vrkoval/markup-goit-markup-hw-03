@@ -108,12 +108,15 @@ text-decoration: none;}
     padding: 192px 0;
     background-color: var(--primary-text-color);
     text-align: center;
+    outline: 1px red;
   }
   .title{
     font-weight: 600; 
     color: var(--title-text-color);
   }
 .hero-title{ 
+    margin-top: 0;
+    margin-bottom: 0;
      font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -241,7 +244,7 @@ text-decoration: none;
     text-align: center;
         /* cursor: pointer; */
 }
-.porfolio-buttonblue {
+.porfolio-buttonblue-filter {
     background-color: var(--link-color);
     border: 1px solid transparent var(--link-color);
     border-color: var(--link-color); 
@@ -256,7 +259,7 @@ text-decoration: none;
         padding: 12px 24px;
 
 }
-   .porfolio-button {
+   .porfolio-button-filter {
     background-color: var(--sibtitle-bg-color);
     border: 1px solid tranparent var(--sibtitle-bg-color);
         font-family: inherit;

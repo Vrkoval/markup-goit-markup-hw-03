@@ -138,7 +138,7 @@ margin-bottom: 48px;
          padding: 16px 32px;
         gap: 10px;
         text-align: center;
-    
+        min-width:  106px;;
 }
 .button:hover, .button:focus {color: var(--primary-white-color);
 background-color: var(--link-color);}

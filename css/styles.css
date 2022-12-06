@@ -109,6 +109,9 @@ text-decoration: none;}
  .menu.nav {
     margin-right: avto;
  }
+ .nav-link{
+    color:var()
+ }
 .page-nav .page-list + .nav-link 
 {margin-left: 40px;
 

@@ -17,6 +17,17 @@ body{
        font-family: 'Roboto', sans-serif;
     font-size: 16px;
         }
+        .conteiner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 1158px;
+            padding: 0 15px 0 15px;
+            margin: auto;
+            padding: auto;
+        }
+
        ul{list-style: none;    }
     .link {text-decoration: none;}
     .logo {

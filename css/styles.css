@@ -1,4 +1,4 @@
-*,
+/* *,
 *::before,
 *::after {
 	box-sizing: border-box;
@@ -14,6 +14,12 @@ p,
 ul {
 	margin: 0;
 	padding: 0;
+} */
+
+html {box-sizing: border-box;}
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 img {
 	display: block;
@@ -128,6 +134,7 @@ margin: auto;
 width: 492px;
 margin-bottom: 48px;
 outline: 1px red;
+background-color: aliceblue;
     }
 .button {
     display: block;

@@ -106,11 +106,15 @@ body{
     
 .adresinfo:hover,.adresinfo:focus {color:var(--link-color);
 text-decoration: none;}
- 
+ .menu.nav {
+    margin-right: avto;
+ }
+
 .hero {
     padding: 192px 0;
     background-color: var(--primary-text-color);
-    }
+    
+text-align: center;}
   .title{
     font-weight: 600; 
     color: var(--title-text-color);

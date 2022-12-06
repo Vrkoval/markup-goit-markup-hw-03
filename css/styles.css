@@ -53,7 +53,7 @@ img {
    --secondary-bg-color:#F4F4FD;
    --sibtitle-bg-color: #E7E9FC;
    --helper-text-color: #8e8f99;
-
+    --card-gap: 24px;
             }
 body{
     background-color: var(--primary-white-color);
@@ -157,11 +157,19 @@ background-color: var(--link-color);}
     padding: 120px 0 120px 0;
 }   
 .section-title {
+    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
 color: var(--primary-text-color);
+margin-bottom: 8px;
 }
-
+.feature-list {
+    margin-left: calc(-1*var(--card-gap));
+}
+.feature-list>.iten {
+    flex-basis: calc(100%/4-var(--card-gap));
+   margin-left: var(--card-gap);
+}
 .work-title {
 font-size: 36px;
 line-height: 1.1;

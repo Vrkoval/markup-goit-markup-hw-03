@@ -165,6 +165,7 @@ margin-bottom: 8px;
 }
 .feature-list {
     margin-left: calc(-1*var(--card-gap));
+    outline: 1px #18a0fb;
 }
 .feature-list>.iten {
     flex-basis: calc(100%/4-var(--card-gap));

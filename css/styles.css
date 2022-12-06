@@ -147,7 +147,7 @@ background-color: var(--link-color);}
 }
 
 
-.feature{display: none;}
+.hidden title {display: none;}
     
 .section-title {
     font-size: 20px;

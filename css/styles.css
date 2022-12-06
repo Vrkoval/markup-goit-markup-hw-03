@@ -149,10 +149,10 @@ background-color: var(--link-color);}
 }
 
 
-.hidden title {position: fixed;
+.hidden-title {position: fixed;
     transform: scale(0);
 }
-. section section-feature {
+.section section-feature {
     /* outline 1px color: tomato; */
     padding: 120px 0 120px 0;
 }   

@@ -90,7 +90,7 @@ body{
     .page-nav, .contacts {
         display: flex;
     } 
-    .conteiner >  
+    
     .conteiner > logo {
         color: var(--title-text-color);
         margin-right: 77px ;
@@ -144,7 +144,7 @@ margin-bottom: 48px;
     }
 
 .button-order {
-    display: block;
+    /* display: flex; */
  color: var(--primary-white-color);
         background-color: var(--link-color);  
         font-family: inherit;

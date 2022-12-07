@@ -85,7 +85,7 @@ body{
         display: flex;
     }  */
     
-    .conteiner > .logo {
+    .conteiner > .logo link{
         color: var(--title-text-color);
         margin-right: 77px ;
         padding: 24px 0 ;

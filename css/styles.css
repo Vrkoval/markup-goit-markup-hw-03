@@ -71,8 +71,8 @@ body{
             align-items: center;
             width: 1158px;
             padding: 0 15px 0 15px;
-            margin: auto;
-            padding: auto;
+            margin: 0 auto;
+            /* padding: auto; */
             }
 
        ul{list-style: none;    }
@@ -86,7 +86,11 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;  
-    }    
+    } 
+    .page-nav, .contacts {
+        display: flex;
+    } 
+    .conteiner >  
     .conteiner > logo {
         color: var(--title-text-color);
         margin-right: 77px ;

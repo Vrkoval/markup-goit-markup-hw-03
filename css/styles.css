@@ -56,7 +56,7 @@ body{
     font-size: 16px;
     margin: 0;
     padding: 0;
-               }
+     }
         .conteiner {
             display: flex;
             flex-wrap: wrap;
@@ -85,10 +85,7 @@ body{
     .section{
         padding: 120px 0 120px 0
     }
-    /* .page-nav, .contacts {
-        display: flex;
-    }  */
-    
+   
     .conteiner > .logo {
         color: var(--title-text-color);
         margin-right: 77px;
@@ -113,17 +110,23 @@ body{
     
 .adresinfo:hover, .adresinfo:focus {color:var(--link-color);
 text-decoration: none;}
- .menu.nav {
+ .menu-nav {
     margin-right: avto;
      }
+     .site-nav list {
+        list-style: none;
+    display: flex;
+    margin-right: 320px;
+     }
+     
  .nav-link{
     color:var(--primary-text-color);
     text-decoration: none;
     display: flex;
     padding: 24px 0;
  }
-.site-nav .nav-list + .nav-link 
-{margin-left: 40px;
+.site-nav .nav-list:not(:last-child)
+{margin-right: 40px;
 }
 
 .hero {

@@ -62,8 +62,7 @@ body{
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin: 0;
-           }
+               }
         .conteiner {
             display: flex;
             flex-wrap: wrap;
@@ -74,7 +73,7 @@ body{
             margin: 0 auto;
             /* padding: auto; */
             }
-
+        header .container { display: flex; }
        ul{list-style: none;    }
     .link {text-decoration: none;}
     .logo {

@@ -111,7 +111,7 @@ body{
 }
 .link:hover,.link:focus {color: var(--link-color)} 
     
-.adresinfo:hover,.adresinfo:focus {color:var(--link-color);
+.adresinfo:hover, .adresinfo:focus {color:var(--link-color);
 text-decoration: none;}
  .menu.nav {
     margin-right: avto;
@@ -122,7 +122,7 @@ text-decoration: none;}
     display: flex;
     padding: 24px 0;
  }
-.site-nav .nav-list + .nav-list 
+.site-nav .nav-list + .nav-link 
 {margin-left: 40px;
 }
 

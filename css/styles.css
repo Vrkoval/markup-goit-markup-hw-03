@@ -31,8 +31,7 @@ img {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-    /* margin: 0;
-    padding: 0; */
+    
 }
 
 .link {
@@ -92,11 +91,11 @@ body{
         display: flex;
     }  */
     
-    /* .conteiner > .logo link{
+    .conteiner > .logo {
         color: var(--title-text-color);
         margin-right: 77px;
         padding: 24px 0 ;
-    } */
+    }
 .logoweb { 
      color: var(- logo-link-color); 
      text-decoration: none;
@@ -125,11 +124,13 @@ text-decoration: none;}
     color:var(--primary-text-color);
     text-decoration: none;
     display: flex;
+    padding: 24px 0;
  }
-.site-nav   .nav-list + .nav-link 
+.site-nav .nav-list + .nav-list 
 {margin-left: 40px;
 
 }
+
 .hero {
     padding: 192px 0;
     background-color: var(--primary-text-color);

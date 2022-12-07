@@ -98,7 +98,9 @@ body{
     } */
 .logoweb { 
      color: var(- logo-link-color); 
-     text-decoration: none;} 
+     text-decoration: none;
+     margin-right: 77px;
+        padding: 24px 0; } 
  .logostudio{
     color: var(--primary-text-color);
     text-decoration: none;

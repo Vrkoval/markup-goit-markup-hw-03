@@ -38,6 +38,8 @@ img {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .link {
@@ -60,6 +62,7 @@ body{
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    margin: 0;
            }
         .conteiner {
             display: flex;
@@ -110,7 +113,8 @@ text-decoration: none;}
     margin-right: avto;
  }
  .nav-link{
-    color:var()
+    color:var(--primary-text-color);
+    text-decoration: none;
  }
 .page-nav .page-list + .nav-link 
 {margin-left: 40px;

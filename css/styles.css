@@ -79,7 +79,9 @@ body{
         line-height: 1.33;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        text-decoration: none;  
+        text-decoration: none; 
+        margin-right: 77px;
+        padding: 24px 0; 
     } 
     /* .page-nav, .contacts {
         display: flex;

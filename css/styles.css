@@ -64,7 +64,7 @@ body{
             align-items: center;
             width: 1158px;
             padding: 0 15px 0 15px;
-            margin: 0 auto;
+            margin:  auto;
             padding: auto;
             }
         /* header .container { display: flex; }
@@ -80,9 +80,7 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none; 
-        /* margin-right: 77px;
-        padding: 24px 0;  */
-    } 
+            } 
 
     .section{
         padding: 120px 0 120px 0
@@ -99,8 +97,7 @@ body{
 .logoweb { 
      color: var(- logo-link-color); 
      text-decoration: none;
-     margin-right: 77px;
-        padding: 24px 0; 
+    
     } 
  .logostudio{
     color: var(--primary-text-color);
@@ -117,9 +114,8 @@ body{
 .adresinfo:hover,.adresinfo:focus {color:var(--link-color);
 text-decoration: none;}
  .menu.nav {
-    /* margin-right: avto; */
-    display: flex;
- }
+    margin-right: avto;
+     }
  .nav-link{
     color:var(--primary-text-color);
     text-decoration: none;
@@ -128,7 +124,6 @@ text-decoration: none;}
  }
 .site-nav .nav-list + .nav-list 
 {margin-left: 40px;
-
 }
 
 .hero {

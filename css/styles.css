@@ -68,8 +68,8 @@ body{
             margin: 0 auto;
             padding: auto;
             }
-        header .container { display: flex; }
-       ul{list-style: none;    }
+        /* header .container { display: flex; }
+       ul{list-style: none;    } */
     .link {text-decoration: none;}
     .logo {
         color: var(--link-color);
@@ -83,15 +83,19 @@ body{
         margin-right: 77px;
         padding: 24px 0; 
     } 
+
+    .section{
+        padding: 120px 0 120px 0
+    }
     /* .page-nav, .contacts {
         display: flex;
     }  */
     
-    .conteiner > .logo link{
+    /* .conteiner > .logo link{
         color: var(--title-text-color);
         margin-right: 77px;
         padding: 24px 0 ;
-    }
+    } */
 .logoweb { 
      color: var(- logo-link-color); 
      text-decoration: none;} 
@@ -111,12 +115,14 @@ body{
 text-decoration: none;}
  .menu.nav {
     margin-right: avto;
+    display: flex;
  }
  .nav-link{
     color:var(--primary-text-color);
     text-decoration: none;
+    display: flex;
  }
-.page-nav .page-list + .nav-link 
+.site-nav   .nav-list + .nav-link 
 {margin-left: 40px;
 
 }

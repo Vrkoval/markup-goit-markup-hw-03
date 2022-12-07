@@ -66,7 +66,7 @@ body{
             width: 1158px;
             padding: 0 15px 0 15px;
             margin: 0 auto;
-            /* padding: auto; */
+            padding: auto;
             }
         header .container { display: flex; }
        ul{list-style: none;    }

@@ -253,8 +253,10 @@ margin-bottom: 72px;
     width: 360px;
     margin-right:  var(--card-gap);
 }
-.work-item:last-child {margin-right: 0px;
+.work-list-item:last-child {margin-right: 0px;
 }
+
+
 .team{
     background-color: var(--secondary-bg-color);
 }

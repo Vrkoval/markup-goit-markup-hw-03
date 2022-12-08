@@ -94,7 +94,7 @@ body{
 .logoweb { 
      color: var(- logo-link-color); 
      text-decoration: none;
-     /* display: flex; */
+     display: flex;
     } 
  .logostudio{
     color: var(--primary-text-color);
@@ -118,7 +118,7 @@ list-style: none;
      .site-nav list {
         list-style: none;
     display: flex;
-    margin-left: 320px;
+    /* margin-right: 320px; */
      }
      
  .nav-link{
@@ -135,7 +135,7 @@ list-style: none;
     display: flex;
 }
 .info-list .adresinfo:not(:last-child){
-    margin-: auto ;
+    margin-left: 40px ;
 }
 .hero {
     padding: 192px 0;

@@ -118,7 +118,7 @@ list-style: none;
      .site-nav list {
         list-style: none;
     display: flex;
-    margin-right: 320px;
+    margin-left: 320px;
      }
      
  .nav-link{

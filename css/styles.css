@@ -216,16 +216,40 @@ margin-bottom: 8px;
     }
 
 
+ /* Section Images */
 
+.img-section {
+    padding-bottom: 120px;
+}
+
+.portfolio-section{
+    padding-top: 108px;
+    padding-bottom: 100px;
+}
+
+.catalog-section{
+    padding-bottom: 120px;
+    padding-top: 0px;
+}
 
 .work-title {
+    margin: 0 auto;
 font-size: 36px;
 line-height: 1.1;
 text-align: center;
-letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--title-text-color);
+margin-bottom: 72px;
 }
+.work-list {
+ margin-left: calc(-1*var(--card-gap));
+}
+.work-list >item{
+    flex-basis: calc(100%/3-var(--card-gap));
+    margin-left var(--card-gap);
+}
+
+
 .team{
     background-color: var(--secondary-bg-color);
 }

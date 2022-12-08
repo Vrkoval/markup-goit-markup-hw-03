@@ -242,14 +242,19 @@ color: var(--title-text-color);
 margin-bottom: 72px;
 }
 .work-list {
- margin-left: calc(-1*var(--card-gap));
+    display: flex;
+    flex-wrap: wrap;
+ /* margin-left: calc(-1*var(--card-gap)); */
+ list-style: none ;
 }
+
 .work-list >item{
-    flex-basis: calc(100%/3-var(--card-gap));
-    margin-left var(--card-gap);
+    /* flex-basis: calc(100%/3-var(--card-gap)); */
+    width: 360px;
+    margin-right:  var(--card-gap);
 }
-
-
+.work-item:last-child {margin-right: 0px;
+}
 .team{
     background-color: var(--secondary-bg-color);
 }

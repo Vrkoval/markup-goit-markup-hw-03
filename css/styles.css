@@ -60,7 +60,7 @@ body{
         .conteiner {
             display: flex;
             flex-wrap: wrap;
-            /* justify-content: space-between; */
+            justify-content: space-between;
             align-items: center;
             width: 1158px;
             padding: 0 15px 0 15px;
@@ -130,12 +130,12 @@ list-style: none;
 .site-nav .nav-list:not(:last-child)
 {margin-right: 40px;
 }
-.contacts-list{
+.info-list{
     list-style: none;
     display: flex;
 }
-.contacts-list .adresinfo:not(:last-child){
-    margin-right: 40px ;
+.info-list .adresinfo:not(:last-child){
+    margin-: auto ;
 }
 .hero {
     padding: 192px 0;
@@ -259,7 +259,7 @@ margin-bottom: 72px;
 }
 
 
-.team section{
+.team section {
     background-color: var(--secondary-bg-color);
 }
 .our-team-title{
@@ -284,11 +284,6 @@ margin-bottom: 72px;
     list-style: none;
 }
 
-.team-item{
-    background-color: var(--primary-white-color);
-    text-align: center;
-    margin-right: 24px;
-}
 
 .team-item:last-child {
     margin-right: 0px;

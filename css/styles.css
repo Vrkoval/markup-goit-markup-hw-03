@@ -94,6 +94,7 @@ body{
 .logoweb { 
      color: var(- logo-link-color); 
      text-decoration: none;
+     display: flex;
     } 
  .logostudio{
     color: var(--primary-text-color);
@@ -246,6 +247,7 @@ margin-bottom: 72px;
     flex-wrap: wrap;
  /* margin-left: calc(-1*var(--card-gap)); */
  list-style: none ;
+ margin-left: calc(-1*var(--card-gap));
 }
 
 .work-list >item{
@@ -253,27 +255,63 @@ margin-bottom: 72px;
     width: 360px;
     margin-right:  var(--card-gap);
 }
-.work-list-item:last-child {margin-right: 0px;
+.work-list-item:last-child {margin-right: 24px;
 }
 
 
-.team{
+.team section{
     background-color: var(--secondary-bg-color);
 }
-.team-title{
+.our-team-title{
 font-size: 36px;
 line-height: 1.1;
 text-align: center;
 text-transform: capitalize;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
+margin-bottom: 72px;
+
 }
-  .team-foto{
+  .team-item{
     background-color: var(--primary-white-color);
     width: 264px;
     text-align: center;
+    margin-right: var(--card-gap);
   }
-  
+  .team-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.team-item{
+    background-color: var(--primary-white-color);
+    text-align: center;
+    margin-right: 24px;
+}
+
+.team-item:last-child {
+    margin-right: 0px;
+}
+
+.person-card-content{
+    padding: 32px 16px;
+}
+
+
+.person-name-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.person-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
  .names {
         background-color: var(--primary-white-color);
      text-align: center;

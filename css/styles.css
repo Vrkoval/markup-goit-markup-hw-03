@@ -256,11 +256,10 @@ margin-bottom: 72px;
 }
 .work-list-item:last-child {margin-right: var(--card-gap);
 }
-
-
 .team {
-    background-color: var(--secondary-bg-color);
+    background-color: #F4F4FD;
 }
+
 
 .our-team-title{
 font-size: 36px;
@@ -270,7 +269,6 @@ text-transform: capitalize;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
 margin-bottom: 72px;
-
 }
   .team-item{
     background-color: var(--primary-white-color);
@@ -326,7 +324,24 @@ letter-spacing: 0.03em;
 footer {
     background-color: var(--primary-text-color); 
 color: var( --title-text-color);
+height: 310px;
+padding: 100px;
 
+}
+
+.summery {
+width: 264px;
+}
+.foter-logo{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16; 
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--sibtitle-bg-color);
+    display: block;
+    margin-bottom: 16px;
 }
 
 .logoweb {
@@ -340,6 +355,7 @@ letter-spacing: 0.03em;
 color: var(--link-color);
 text-decoration: none;
 }
+
 .logoname {
     color: var(--primary-white-color);
     text-decoration: none;
@@ -350,7 +366,7 @@ text-decoration: none;
    .conclusion {
     font-family: 'Roboto';
     color: var(--sibtitle-bg-color) ;
-   }
+   
    
    /* Portfolio */
    /* .footer {

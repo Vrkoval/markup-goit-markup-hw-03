@@ -339,7 +339,7 @@ width: 264px;
     line-height: 1.16; 
     text-decoration: none;
     letter-spacing: 0.03em;
-    color: var(--sibtitle-bg-color);
+    color: var(--link-color);
     display: block;
     margin-bottom: 16px;
 }

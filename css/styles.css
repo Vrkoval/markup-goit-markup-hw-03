@@ -135,7 +135,7 @@ list-style: none;
     display: flex;
 }
 .info-list .mail:not(:last-child){
-    margin-left: 40px ;
+    margin-right: 40px ;
 }
 .hero {
     padding: 192px 0;

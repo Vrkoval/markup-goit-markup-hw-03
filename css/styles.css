@@ -137,12 +137,13 @@ list-style: none;
 .info-list .mail:not(:last-child){
     margin-right: 40px ;
 }
+
 .hero {
     padding: 192px 0;
     background-color: var(--primary-text-color);
     text-align: center;}
   .title{
-    font-weight: 600; 
+    font-weight: 500; 
     color: var(--title-text-color);
   }
 .hero-title{ 
@@ -245,21 +246,19 @@ margin-bottom: 72px;
 .work-list {
     display: flex;
     flex-wrap: wrap;
- /* margin-left: calc(-1*var(--card-gap)); */
- list-style: none ;
+  list-style: none ;
  margin-left: calc(-1*var(--card-gap));
 }
 
 .work-list >item{
-    /* flex-basis: calc(100%/3-var(--card-gap)); */
-    width: 360px;
+       width: 360px;
     margin-right:  var(--card-gap);
 }
-.work-list-item:last-child {margin-right: 24px;
+.work-list-item:last-child {margin-right: var(--card-gap);
 }
 
 
-.team section {
+.team-section {
     background-color: var(--secondary-bg-color);
 }
 .our-team-title{

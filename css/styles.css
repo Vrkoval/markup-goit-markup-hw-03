@@ -134,7 +134,7 @@ list-style: none;
     list-style: none;
     display: flex;
 }
-.info-list .adresinfo:not(:last-child){
+.info-list .mail:not(:last-child){
     margin-left: 40px ;
 }
 .hero {

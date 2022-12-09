@@ -258,9 +258,10 @@ margin-bottom: 72px;
 }
 
 
-.team-section {
+.team {
     background-color: var(--secondary-bg-color);
 }
+
 .our-team-title{
 font-size: 36px;
 line-height: 1.1;

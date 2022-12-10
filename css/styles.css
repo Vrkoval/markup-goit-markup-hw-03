@@ -71,7 +71,6 @@ body{
             width: 1158px;
             padding: 0 15px 0 15px;
             margin: auto;
-            padding: auto;
             }
        
        .logo {
@@ -84,14 +83,14 @@ body{
         text-transform: uppercase;
         text-decoration: none; 
         margin-right: 77px;
-        padding: 24px;
+        padding: 24px 0;
             } 
 
     .section{
         padding: 120px 0 120px 0;
     }
    
-    .conteiner > .logo {
+    .conteiner > .logostudio {
         color: var(--title-text-color);
         /* margin-right: 77px;
         padding: 24px 0 ; */
@@ -99,7 +98,7 @@ body{
 .logoweb { 
      color: var(- logo-link-color); 
      text-decoration: none;
-     /* display: flex; */
+    
     } 
  .logostudio{
     color: var(--primary-text-color);
@@ -128,16 +127,16 @@ body{
    letter-spacing: 0.2em;
     padding: 24px 0;
  }
-.site-nav .nav-list :not(:last-child)
+.site-nav-item .nav-list :not(:last-child)
 {margin-right: 40px;
 }
-.info-list{
+/* .info-list{
     list-style: none;
     display: flex;
 }
 .info-list .mail:not(:last-child){
     margin-right: 40px ;
-}
+} */
 
 .hero {
     padding: 192px 0;

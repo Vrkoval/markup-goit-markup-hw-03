@@ -358,6 +358,8 @@ padding: 100px;
 .logoname {
     color: var(--primary-white-color);
     text-decoration: none;
+}
+
 .logoweb {
 font-family: 'Raleway';
 font-weight: 800;
@@ -370,7 +372,7 @@ text-decoration: none;
 }
 
 
-}
+
 .logorweb:hover,.foter-logo:hover, .logoname:focus, .foter-logo:focus {
     color: var(--link-color);
     }

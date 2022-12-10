@@ -378,7 +378,7 @@ text-decoration: none;
     text-decoration: none;
    } */
    .portfolio{ display: none};
-   porfolio-button {
+   .porfolio-button {
     background-color: var(--sibtitle-bg-color);
     border: 1px solid var(--sibtitle-bg-color);
     color: var(--link-color);

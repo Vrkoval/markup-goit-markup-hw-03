@@ -329,9 +329,10 @@ padding: 100px;
 
 }
 
-.summery {
-width: 264px;
+.footer-desk-block{
+    width: 264px;
 }
+
 .foter-logo{
     font-family: 'Raleway';
     font-weight: 800;
@@ -345,10 +346,10 @@ width: 264px;
 }
 .foter-logo span {
     font-family: 'Raleway';
-    color:#4D5AE5;
+    color: var(--link-color);
     font-weight: 800;
 }
-.conclusion {font-weight: 400;
+.futer-desk {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Roboto';

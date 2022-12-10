@@ -224,26 +224,18 @@ margin-bottom: 8px;
     padding-bottom: 120px;
 }
 
-/* .portfolio-section{
-    padding-top: 108px;
-    padding-bottom: 100px;
-}
-
-.catalog-section{
-    padding-bottom: 120px;
-    padding-top: 0px;
-} */
 
 .work-title {
     margin: 0 auto;
 font-size: 36px;
 line-height: 1.1;
-/* text-align: center; */
 text-transform: capitalize;
 color: var(--title-text-color);
 margin-bottom: 72px;
 }
 .work-list {
+    display: flex;
+    justify-content: space-between;
       margin-left: calc(-1*var(--card-gap));
 }
 

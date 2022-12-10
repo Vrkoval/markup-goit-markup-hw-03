@@ -344,7 +344,7 @@ padding: 100px;
     display: block;
     margin-bottom: 16px;
 }
-.foter-logo span {
+.foter-logo  {
     font-family: 'Raleway';
     color: var(--link-color);
     font-weight: 800;
@@ -355,7 +355,9 @@ padding: 100px;
     font-family: 'Roboto';
     color: var(--sibtitle-bg-color) ;
 }
-
+.logoname {
+    color: var(--primary-white-color);
+    text-decoration: none;
 .logoweb {
 font-family: 'Raleway';
 font-weight: 800;
@@ -367,9 +369,7 @@ color: var(--link-color);
 text-decoration: none;
 }
 
-.logoname {
-    color: var(--primary-white-color);
-    text-decoration: none;
+
 }
 .logorweb:hover,.foter-logo:hover, .logoname:focus, .foter-logo:focus {
     color: var(--link-color);

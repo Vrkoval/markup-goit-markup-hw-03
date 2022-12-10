@@ -83,6 +83,8 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none; 
+        margin-right: 77px;
+        padding: 24px;
             } 
 
     .section{
@@ -91,8 +93,8 @@ body{
    
     .conteiner > .logo {
         color: var(--title-text-color);
-        margin-right: 77px;
-        padding: 24px 0 ;
+        /* margin-right: 77px;
+        padding: 24px 0 ; */
     }
 /* .logoweb { 
      color: var(- logo-link-color); 

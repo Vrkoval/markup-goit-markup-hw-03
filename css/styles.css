@@ -97,7 +97,7 @@ body{
 .logoweb { 
      color: var(- logo-link-color); 
      text-decoration: none;
-     display: flex;
+     /* display: flex; */
     } 
  .logostudio{
     color: var(--primary-text-color);

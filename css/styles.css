@@ -220,11 +220,11 @@ margin-bottom: 8px;
 
  /* Section Images */
 
-.img-section {
+.work-section {
     padding-bottom: 120px;
 }
 
-.portfolio-section{
+/* .portfolio-section{
     padding-top: 108px;
     padding-bottom: 100px;
 }
@@ -232,7 +232,7 @@ margin-bottom: 8px;
 .catalog-section{
     padding-bottom: 120px;
     padding-top: 0px;
-}
+} */
 
 .work-title {
     margin: 0 auto;
@@ -244,18 +244,20 @@ color: var(--title-text-color);
 margin-bottom: 72px;
 }
 .work-list {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
   list-style: none ;
  margin-left: calc(-1*var(--card-gap));
 }
 
 .work-list >item{
        width: 360px;
-    margin-right:  var(--card-gap);
+    margin-left:  var(--card-gap);
 }
 .work-list-item:last-child {margin-right: var(--card-gap);
 }
+
+
 .team {
     background-color: #F4F4FD;
 }

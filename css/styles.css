@@ -238,23 +238,21 @@ margin-bottom: 8px;
     margin: 0 auto;
 font-size: 36px;
 line-height: 1.1;
-text-align: center;
+/* text-align: center; */
 text-transform: capitalize;
 color: var(--title-text-color);
 margin-bottom: 72px;
 }
 .work-list {
-    /* display: flex;
-    flex-wrap: wrap; */
-  list-style: none ;
- margin-left: calc(-1*var(--card-gap));
+      margin-left: calc(-1*var(--card-gap));
 }
 
 .work-list >item{
        width: 360px;
+       flex-basis: calc(100%/3 - var(--card-gap));
     margin-left:  var(--card-gap);
 }
-.work-list-item:last-child {margin-right: var(--card-gap);
+.work-list-item:last-child {margin-left: var(--card-gap);
 }
 
 

@@ -127,9 +127,27 @@ body{
    letter-spacing: 0.2em;
     padding: 24px 0;
  }
-.site-nav-item .nav-list :not(:last-child)
+ .site-nav-list{
+    list-style: none;
+    display: flex;
+    margin-right: 320px;
+ }
+.site-nav-list .nav-link :not(:last-child)
 {margin-right: 40px;
 }
+.site-nav-list .nav-link
+{display: block;
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+}
+.site-nav-item:last-child {
+    margin-right : 0 px;
+}
+
+
 /* .info-list{
     list-style: none;
     display: flex;

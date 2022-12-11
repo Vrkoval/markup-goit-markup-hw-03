@@ -268,7 +268,7 @@ margin-bottom: 72px;
 .work-list >item {
        width: 360px;
     margin-left:  var(--card-gap);
-    flex-basis: calc(100% / 3 - var(--card-gap ));
+    flex-basis: calc(100%/ 3 - var(--card-gap ));
 } 
 
 

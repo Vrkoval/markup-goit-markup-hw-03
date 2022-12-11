@@ -72,7 +72,6 @@ body{
         .conteiner {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
             align-items: center;
             width: 1158px;
             padding: 0 15px 0 15px;
@@ -95,8 +94,7 @@ body{
     .section{
         padding: 120px 0 120px 0;
     }
-   
-    .conteiner > .logostudio {
+       .conteiner > .logostudio {
         color: var(--title-text-color);
           }
 .logoweb { 

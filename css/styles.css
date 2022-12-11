@@ -416,9 +416,7 @@ text-decoration: none;
   .filter-button{
     margin-left: var(--card-set-gap);
   }
-    /* .filter .filter-nav-button + .filter-nav-button{
-        margin-left: 24px;
-    } */
+    
   .button-filter {
     background-color: var(--sibtitle-bg-color);
     border: 1px solid var(--sibtitle-bg-color);
@@ -431,7 +429,7 @@ text-decoration: none;
         padding: 12px 24px;
         border-radius: 4px;
   }
-  .filter .filter-nav-button:not(last-child) {
+  .filter-list .filter-nav-button:not(last-child) {
     margin-right: 24px;
   }
 

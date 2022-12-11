@@ -136,25 +136,13 @@ body{
    letter-spacing: 0.2em;
     padding: 24px 0;
  }
-  */
- /* .site-nav-list .nav-link{
-  display: block;  color: var(--title-text-color);
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.50;
-    padding: 24px 0;
-}  */
-
+  
 .contacts-list{
     display: flex;
     margin-left: auto;
     padding: 24px 0;
 }
-/* .contacts-list .contacts-item:not(:last-child){
-    
-    margin-right: 40px;
-} */
+
 .contacts-list .item+ .item { margin-right: 40px;}
 .contacts-link{
     color: var(--title-text-color);
@@ -234,7 +222,8 @@ margin-bottom: 8px;
 }
 .list-title {
     margin-bottom: 8px;
-    font-size: 36px;font-weight: 600;
+    font-size: 36px;
+    font-weight: 600;
     line-height: 1.11;
 
     }
@@ -266,13 +255,22 @@ margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
   list-style: none ;
- margin-left:calc(-1 * var(--card-gap));
 }
+.work-item{
+    width: 360px;
+    margin-right: var(--card-set-gap);
+
+}
+.work-item:last-child{
+    margin-right: 0px;
+}
+ /* margin-left:calc(-1 * var(--card-gap));
+
 
 .work-list >item{
        width: 360px;
     margin-left:  var(--card-gap);
-}
+} */
 .work-list-item:last-child {margin-left: var(--card-gap);
 }
 .team {

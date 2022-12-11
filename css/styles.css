@@ -131,7 +131,7 @@ body{
  .site-nav .list{
     list-style: none;
     display: flex;
-    /* margin-right: 320px; */
+    /* margin-left: auto; */
  }
 .site-nav .nav-link :not(:last-child)
 {margin-right: 40px;

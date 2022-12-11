@@ -173,8 +173,7 @@ margin-bottom: 48px;
     }
 
 .button-order {
-    /* display: flex; */
- color: var(--primary-white-color);
+    color: var(--primary-white-color);
         background-color: var(--link-color);  
         font-family: inherit;
         font-weight: 500;
@@ -408,7 +407,7 @@ text-decoration: none;
     background-color: var(--sibtitle-bg-color);
     border: 1px solid var(--sibtitle-bg-color);
     color: var(--link-color);
-    font-family: inherit;
+    font-family: ;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -424,12 +423,14 @@ text-decoration: none;
     color: var(--primary-white-color);
 } 
 
-.examples title {
+.examples-title {
     color: var(--title-text-color);
-    
+    margin-bottom: 8;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin: auto;
+    
 }
 
 

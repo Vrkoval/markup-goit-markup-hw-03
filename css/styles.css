@@ -135,7 +135,7 @@ body{
     display: flex;
     margin-right: 320px;
  }
-.site-nav-list .nav-link :not(:last-child)
+.site-nav .nav-link :not(:last-child)
 {margin-right: 40px;
 }
 .site-nav-list .nav-link
@@ -151,13 +151,7 @@ body{
 }
 
 
-/* .info-list{
-    list-style: none;
-    display: flex;
-}
-.info-list .mail:not(:last-child){
-    margin-right: 40px ;
-} */
+
 
 .hero {
     padding: 192px 0;
@@ -243,16 +237,6 @@ margin-bottom: 8px;
 
 .img-section {
     padding-bottom: 120px;
-}
-
-.portfolio-section{
-    padding-top: 108px;
-    padding-bottom: 100px;
-}
-
-.catalog-section{
-    padding-bottom: 120px;
-    padding-top: 0px;
 }
 
 .work-title {
@@ -401,56 +385,44 @@ text-decoration: none;
    
    
    /* Portfolio */
-   /* .footer {
-    text-decoration: none;
-   } */
-   .portfolio{ display: none};
-   .porfolio-button {
+   
+   .portfolio-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+/* .catalog-section{
+    padding-bottom: 120px;
+    padding-top: 0px;
+} */
+
+  .filter-nav {
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 72px;
+  }
+    .filter-nav .filter-nav-btn + .filter-nav{
+        margin-left: 24px;
+    }
+  .button-filter {
     background-color: var(--sibtitle-bg-color);
     border: 1px solid var(--sibtitle-bg-color);
     color: var(--link-color);
-    font-weight: 600;
-    font-size: 16px;
+    font-family: inherit;
+    font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
-        /* cursor: pointer; */
-}
-.porfolio-buttonblue-filter {
-    background-color: var(--link-color);
-    border: 1px solid transparent var(--link-color);
-    border-color: var(--link-color); 
-    border-radius: 4px;
-    color: var(--primary-white-color);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
-        cursor: pointer;
-        padding: 12px 24px;
-
-}
-   .porfolio-button-filter {
-    background-color: var(--sibtitle-bg-color);
-    border: 1px solid tranparent var(--sibtitle-bg-color);
-        font-family: inherit;
-    color: var(--link-color);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
         cursor: pointer;
         padding: 12px 24px;
         border-radius: 4px;
-}
+  }
+  
 
-/* .porfolio-button:hover,
-.porfolio-button:focus {
+.button-filter:hover,
+.button-filter:focus {
     background-color: var(--link-color);
     color: var(--primary-white-color);
-}  */
+} 
 
 .examples title {
     color: var(--title-text-color);

@@ -398,7 +398,7 @@ text-decoration: none;
 
 .portfolio-list {
 	margin-bottom: calc(-1 * var(--card-set-gap));
-	margin-left: calc(-1 * var(--card-set-gap));
+	margin-right: calc(-1 * var(--card-set-gap));
 }
 
 .portfolio-list > .item {
@@ -433,7 +433,7 @@ text-decoration: none;
         padding: 12px 24px;
         border-radius: 4px;
   }
-  .filter .filter-nav-button:not(last-child){
+  .filter .filter-nav-button:not(last-child) {
     margin-right: 24px;
   }
 

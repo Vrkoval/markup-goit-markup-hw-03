@@ -125,14 +125,14 @@ body{
     }
 
 
- /* .site-nav-list .site-nav-link {
+ .site-nav-list .site-nav-link {
     color:var(--primary-text-color);
     font-weight: 700;
     text-decoration: none;
    line-height: 1.5;
    letter-spacing: 0.2em;
     padding: 24px 0;
- } */
+ }
  /* .site-nav-list .list{
     list-style: none;
     display: flex;

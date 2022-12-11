@@ -413,9 +413,9 @@ text-decoration: none;
     justify-content: center;
      margin-bottom: 72px;
   }
-  .filter-button{
+  /* .filter-button{
     margin-left: var(--card-set-gap);
-  }
+  } */
     
   .button-filter {
     background-color: var(--sibtitle-bg-color);

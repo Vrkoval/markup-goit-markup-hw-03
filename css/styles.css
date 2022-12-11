@@ -114,7 +114,7 @@ body{
 .nav-link:hover,.nav-link:focus {color: var(--link-color)} 
 
  .menu-nav {
-    margin-left: auto;
+    margin-left: 0;
      }
      .site-nav .list {
         list-style: none;

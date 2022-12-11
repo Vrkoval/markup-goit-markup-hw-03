@@ -126,7 +126,7 @@ body{
     }
 
 
- .site-nav-list .site-nav-link {
+ /* .site-nav-list .site-nav-link {
     color:var(--primary-text-color);
     font-weight: 700;
     text-decoration: none;
@@ -134,7 +134,7 @@ body{
    letter-spacing: 0.2em;
     padding: 24px 0;
  }
- 
+  */
  /* .site-nav-list .nav-link{
   display: block;  color: var(--title-text-color);
     text-decoration: none;

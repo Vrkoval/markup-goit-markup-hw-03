@@ -147,7 +147,9 @@ body{
 .site-nav-item:last-child {
     margin-right : 0 px;
 }
-
+.info-list{
+    margin-left: auto;
+}
 .hero {
     padding: 192px 0;
     background-color: var(--primary-text-color);

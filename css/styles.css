@@ -11,9 +11,17 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul{
 	margin: 0;
 	padding: 0;
+}
+ol,li{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
 }
 
 img {

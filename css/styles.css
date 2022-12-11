@@ -120,16 +120,14 @@ body{
         list-style: none;
            }
      
-    /* .site-nav li{
-        outline: 1px solid tomato;
-        margin-left: 40;
-    } */
-    .site-nav .item {
+    /* .site-nav .item {
         margin-left: 40px;
+    } */
+    .site-nav .item:not(:last-child){
+        margin-right: 40px;
     }
-    .site-nav-item:last-child{
-        margin-right: 0;
-    }
+
+
  .nav-link{
     color:var(--primary-text-color);
     font-weight: 700;

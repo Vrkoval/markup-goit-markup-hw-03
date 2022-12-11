@@ -247,8 +247,8 @@ color: var(--title-text-color);
 margin-bottom: 72px;
 }
 .work-list {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
   list-style: none ;
  margin-left: calc(-1*var(--card-gap));
 }

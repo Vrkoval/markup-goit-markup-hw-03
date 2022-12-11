@@ -411,7 +411,8 @@ text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-     /* margin: auto;  */
+     margin-left: 0;  
+     margin-right: 0;
     margin-bottom: 72px;
   }
   /* .filter-button{

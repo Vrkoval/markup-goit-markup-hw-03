@@ -126,7 +126,7 @@ body{
     }
 
 
- .site-nav-item .site-nav-link {
+ .site-nav-list .site-nav-link {
     color:var(--primary-text-color);
     font-weight: 700;
     text-decoration: none;

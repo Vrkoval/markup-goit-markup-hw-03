@@ -144,7 +144,7 @@ body{
     padding: 24px 0;
 }  */
 
-.contacts-list{
+/* .contacts-list{
     display: flex;
     margin-left: auto;
     padding: 24px 0;
@@ -164,7 +164,7 @@ body{
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--primary-text-color);
-}
+} */
 
 
 .hero {

@@ -115,6 +115,7 @@ body{
 
  .menu-nav {
     margin-left: 0;
+    text-decoration: none;
      }
      .site-nav .list {
         list-style: none;
@@ -125,7 +126,7 @@ body{
     }
 
 
- .site-nav-list .site-nav-link {
+ .site-nav-item .site-nav-link {
     color:var(--primary-text-color);
     font-weight: 700;
     text-decoration: none;
@@ -133,12 +134,7 @@ body{
    letter-spacing: 0.2em;
     padding: 24px 0;
  }
- /* .site-nav-list .list{
-    list-style: none;
-    display: flex;
-    /* margin-left: auto; */
-    } */
-
+ 
 /* .site-nav-list .nav-link{
     /* display: block; */
     color: var(--title-text-color);

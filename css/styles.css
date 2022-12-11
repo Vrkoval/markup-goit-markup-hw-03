@@ -113,9 +113,9 @@ body{
 }
 .nav-link:hover,.nav-link:focus {color: var(--link-color)} 
 
- .menu-nav {
+ /* .menu-nav {
     margin-left: 0;
-     }
+     } */
      .site-nav .list {
         list-style: none;
            }
@@ -123,6 +123,9 @@ body{
     .site-nav li{
         outline: 1px solid tomato;
         margin-left: 40;
+    }
+    .site-nav .item {
+
     }
  .nav-link{
     color:var(--primary-text-color);

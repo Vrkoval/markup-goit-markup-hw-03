@@ -113,9 +113,9 @@ body{
 }
 .nav-link:hover,.nav-link:focus {color: var(--link-color)} 
 
- /* .menu-nav {
+ .menu-nav {
     margin-left: 0;
-     } */
+     }
      .site-nav .list {
         list-style: none;
            }
@@ -124,9 +124,9 @@ body{
         outline: 1px solid tomato;
         margin-left: 40;
     }
-    .site-nav .item {
-margin-right: 40px;
-    }
+    /* .site-nav .item {
+        margin-right: 40px;
+    } */
     .site-nav-item:last-child{
         margin-right: 0;
     }

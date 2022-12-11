@@ -133,13 +133,13 @@ body{
  .site-nav .list{
     list-style: none;
     display: flex;
-    margin-right: 320px;
+    /* margin-right: 320px; */
  }
 .site-nav .nav-link :not(:last-child)
 {margin-right: 40px;
 }
-.site-nav-list .nav-link
-{display: block;
+.site-nav-list .nav-link{
+    /* display: block; */
     color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
@@ -149,7 +149,6 @@ body{
 .site-nav-item:last-child {
     margin-right : 0 px;
 }
-
 
 
 
@@ -224,7 +223,7 @@ margin-bottom: 8px;
     }
 
 .feature-list>.item {
-    flex-basis: calc(100%/4-var(--card-gap));
+    flex-basis: calc(100%/4 -var(--card-gap));
    margin-left:var(--card-gap);
    }
     .description {
@@ -250,7 +249,7 @@ margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
   list-style: none ;
- margin-left: calc(-1*var(--card-gap));
+ margin-left:calc(-1 * var(--card-gap));
 }
 
 .work-list >item{

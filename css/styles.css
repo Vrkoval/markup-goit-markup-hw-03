@@ -126,9 +126,9 @@ body{
         .site-nav .item:not(:last-child){
         margin-right: 40px;
     }
-a {text-decoration: none;}
 
- /* .site-nav-list .site-nav-link {
+
+  .site-nav-link {
     color:var(--primary-text-color);
     font-weight: 700;
     text-decoration: none;
@@ -151,10 +151,11 @@ a {text-decoration: none;}
     margin-left: auto;
     padding: 24px 0;
 }
-.contacts-list .contacts-item:not(:last-child){
+/* .contacts-list .contacts-item:not(:last-child){
     
     margin-right: 40px;
-}
+} */
+.contacts-list .item+ .item { margin-right: 40px;}
 .contacts-link{
     color: var(--title-text-color);
     text-decoration: none;

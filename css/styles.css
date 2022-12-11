@@ -125,19 +125,19 @@ body{
     }
 
 
- .nav-link{
+ /* .site-nav-list .site-nav-link {
     color:var(--primary-text-color);
     font-weight: 700;
     text-decoration: none;
    line-height: 1.5;
    letter-spacing: 0.2em;
     padding: 24px 0;
- }
- .site-nav-list .list{
+ } */
+ /* .site-nav-list .list{
     list-style: none;
     display: flex;
     /* margin-left: auto; */
- }
+ } */
 
 .site-nav-list .nav-link{
     display: block;
@@ -152,7 +152,7 @@ body{
     display: flex;
     margin-left: 0;
 }
-.contacts-list .contacts-item.item:not(:last-child){
+.contacts-list .contacts-item:not(:last-child){
     
     margin-right: 40px;
 }
@@ -167,6 +167,7 @@ body{
 .contacts-link:focus {
     color: var(--primary-text-color);
 }
+
 
 .hero {
     padding: 192px 0;

@@ -120,6 +120,9 @@ body{
         list-style: none;
            }
      
+    .site-nav li{
+        margin-left: 40;
+    }
  .nav-link{
     color:var(--primary-text-color);
     font-weight: 700;

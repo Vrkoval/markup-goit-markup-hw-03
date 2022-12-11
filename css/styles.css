@@ -148,10 +148,25 @@ body{
     line-height: 1.50;
 }
 
-.info-list{
+.contacts-list{
+    display: flex;
     margin-left: 0;
 }
-
+.contacts-list .contacts-item.item:not(:last-child){
+    
+    margin-right: 40px;
+}
+.contacts-link{
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--primary-text-color);
+}
 .hero {
     padding: 192px 0;
     background-color: var(--primary-text-color);

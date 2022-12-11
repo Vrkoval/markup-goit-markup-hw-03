@@ -125,7 +125,7 @@ body{
         .site-nav .item:not(:last-child){
         margin-right: 40px;
     }
-
+a {text-decoration: none;}
 
  /* .site-nav-list .site-nav-link {
     color:var(--primary-text-color);

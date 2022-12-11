@@ -411,13 +411,13 @@ text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-     margin-left: 0;  
-     margin-right: 0;
+     /* margin-left: 0;  
+     margin-right: 0; */
     margin-bottom: 72px;
   }
-  /* .filter-button{
+  .filter-button{
     margin-right: var(--card-set-gap);
-  } */
+  }
     /* .filter .filter-nav-button + .filter-nav-button{
         margin-left: 24px;
     } */

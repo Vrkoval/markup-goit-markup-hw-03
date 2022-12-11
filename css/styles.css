@@ -150,8 +150,6 @@ body{
     margin-right : 0 px;
 }
 
-
-
 .hero {
     padding: 192px 0;
     background-color: var(--primary-text-color);
@@ -191,7 +189,6 @@ background-color: var(--link-color);}
 .button:active {background-color: #404BBF;
 
 }
-
 
 .hidden-title {position: fixed;
     transform: scale(0);

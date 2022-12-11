@@ -121,6 +121,7 @@ body{
            }
      
     .site-nav li{
+        outline 1px tomato;
         margin-left: 40;
     }
  .nav-link{

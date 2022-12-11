@@ -403,8 +403,7 @@ text-decoration: none;
 
 .portfolio-list > .item {
 	flex-basis: calc(100% / 3 - 2 var(--card-set-gap));
-
-	margin-bottom: var(--card-set-gap);
+    	margin-bottom: var(--card-set-gap);
 	margin-left: var(--card-set-gap);
 }
 
@@ -447,7 +446,7 @@ text-decoration: none;
 }
 .examples-title {
     color: var(--title-text-color);
-    margin-bottom: 8;
+    margin-bottom: 0;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;

@@ -143,7 +143,7 @@ body{
     padding: 24px 0;
 }
 
-.contacts-list .item+ .item { margin-right: 40px;}
+.contacts-list .item + .item { margin-right: 40px;}
 .contacts-link{
     color: var(--title-text-color);
     text-decoration: none;

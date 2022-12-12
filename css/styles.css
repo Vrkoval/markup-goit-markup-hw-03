@@ -407,7 +407,7 @@ text-decoration: none;
 }
 
 .portfolio-list > .item {
-	flex-basis: calc(100% / 3 - 2var(--card-set-gap));
+	flex-basis: calc(100% / 3 - 2 var(--card-set-gap));
     	margin-bottom: var(--card-set-gap);
 	    margin-left: var(--card-set-gap);
 

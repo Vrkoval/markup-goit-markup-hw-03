@@ -400,17 +400,17 @@ text-decoration: none;
     padding-bottom: 120px;
 }
 
-/* .portfolio-list {
+.portfolio-list {
 	margin-bottom: calc(-1 * var(--card-set-gap));
 	margin-right: calc(-1 * var(--card-set-gap));
-} */
+}
 
 .portfolio-list > .item {
 	/* flex-basis: calc(100% / 3 - 2 var(--card-set-gap)); */
     flex-basis: calc((100% - 48px) / 3);
     	margin-bottom: var(--card-set-gap);
 	    margin-left: var(--card-set-gap);
-        margin-right: 0pt;
+}
        
 /* }
 .filter-list:last-child{

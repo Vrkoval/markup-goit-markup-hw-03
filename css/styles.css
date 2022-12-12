@@ -420,7 +420,7 @@ text-decoration: none;
     display: flex;
     flex-wrap: wrap;
      margin-bottom: 72px;
-   
+   justify-content: center;
   }
   
     

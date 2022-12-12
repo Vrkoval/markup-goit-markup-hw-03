@@ -401,7 +401,7 @@ text-decoration: none;
 }
 .portfolio-list {
 	margin-bottom: calc(-1 * var(--card-set-gap));
-	margin-right: calc(-1 * var(--card-set-gap));
+	margin-left: calc(-1 * var(--card-set-gap));
 }
 
 .portfolio-list > .item {

@@ -347,7 +347,7 @@ padding: 100px 0;
     width: 264px;
 }
 
-.foter-logo{
+.footer-logo{
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -358,12 +358,12 @@ padding: 100px 0;
     display: block;
     margin-bottom: 16px;
 }
-.foter-logo  {
+.footer-logo  {
     font-family: 'Raleway';
     color: var(--link-color);
     font-weight: 800;
 }
-.futer-desk {font-weight: 400;
+.footer-desk {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Roboto';
@@ -387,7 +387,7 @@ text-decoration: none;
 
 
 
-.logorweb:hover,.foter-logo:hover, .logoname:focus, .foter-logo:focus {
+.logorweb:hover,.footer-logo:hover, .logoname:focus, .footer-logo:focus {
     color: var(--link-color);
     }
    

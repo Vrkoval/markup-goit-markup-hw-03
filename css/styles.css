@@ -335,7 +335,6 @@ line-height: 1.16;
  display: flex;
 align-items: center; 
 letter-spacing: 0.03em;
-/* text-transform: uppercase; */
 }
 footer {
     background-color: var(--primary-text-color); 
@@ -401,10 +400,10 @@ text-decoration: none;
     padding-bottom: 120px;
 }
 
-.portfolio-list {
+/* .portfolio-list {
 	margin-bottom: calc(-1 * var(--card-set-gap));
 	margin-right: calc(-1 * var(--card-set-gap));
-}
+} */
 
 .portfolio-list > .item {
 	/* flex-basis: calc(100% / 3 - 2 var(--card-set-gap)); */

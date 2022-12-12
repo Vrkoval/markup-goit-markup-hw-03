@@ -396,7 +396,7 @@ text-decoration: none;
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-    gap: 24 px;
+    /* gap: 24 px; */
     
 }
 /* .portfolio-list {

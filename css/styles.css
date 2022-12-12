@@ -396,13 +396,13 @@ text-decoration: none;
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-    /* gap: 24 px; */
+    gap: 24 px;
     
 }
-.portfolio-list {
+/* .portfolio-list {
 	margin-bottom: calc(-1 * var(--card-set-gap));
 	margin-right: calc(-1 * var(--card-set-gap));
-}
+} */
 
 .portfolio-list > .item {
 	/* flex-basis: calc(100% / 3 - 2 var(--card-set-gap)); */

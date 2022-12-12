@@ -401,7 +401,10 @@ text-decoration: none;
 }
 .portfolio-list {
 	margin-bottom: calc(-1 * var(--card-set-gap));
-	margin-lef: calc(-1 * var(--card-set-gap));
+	margin-left: calc(-1 * var(--card-set-gap));
+    display: flex;
+	flex-wrap: wrap;
+
 }
 
 .portfolio-list > .item {
@@ -436,9 +439,9 @@ text-decoration: none;
         padding: 12px 24px;
         border-radius: 4px;
   }
-  /* .filter-list .filter-nav-button:not(last-child) {
+  .filter-list .filter-nav-button:not(last-child) {
     margin-right: 24px;
-  } */
+  }
 
 .button-filter:hover,
 .button-filter:focus {

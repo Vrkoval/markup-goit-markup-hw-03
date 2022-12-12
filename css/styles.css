@@ -35,13 +35,6 @@ img {
 	letter-spacing: 0.02em;
 }
 
-.list {
-	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-    gap: 24 px;
-    
-}
 .link {
 	text-decoration: none;
     }
@@ -399,11 +392,17 @@ text-decoration: none;
     padding-top: 96px;
     padding-bottom: 120px;
 }
-
-.portfolio-list {
+.list {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+    gap: 24 px;
+    
+}
+/* .portfolio-list {
 	margin-bottom: calc(-1 * var(--card-set-gap));
 	margin-right: calc(-1 * var(--card-set-gap));
-}
+} */
 
 .portfolio-list > .item {
 	/* flex-basis: calc(100% / 3 - 2 var(--card-set-gap)); */

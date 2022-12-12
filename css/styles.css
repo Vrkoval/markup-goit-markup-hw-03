@@ -412,10 +412,10 @@ text-decoration: none;
 	    margin-left: var(--card-set-gap);
         margin-right: 0pt;
        
-}
+/* }
 .filter-list:last-child{
     margin-right: 0px;
-}
+} */
 
   .filter-list {
     display: flex;
@@ -437,9 +437,9 @@ text-decoration: none;
         padding: 12px 24px;
         border-radius: 4px;
   }
-  .filter-list .filter-nav-button:not(last-child) {
+  /* .filter-list .filter-nav-button:not(last-child) {
     margin-right: 24px;
-  }
+  } */
 
 .button-filter:hover,
 .button-filter:focus {

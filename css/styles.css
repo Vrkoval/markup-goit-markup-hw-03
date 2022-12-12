@@ -40,6 +40,7 @@ img {
 	display: flex;
 	flex-wrap: wrap;
     gap: 24 px;
+    
 }
 .link {
 	text-decoration: none;
@@ -409,7 +410,7 @@ text-decoration: none;
 .portfolio-list > .item {
 	flex-basis: calc(100% / 3 - 2 var(--card-set-gap));
     	margin-bottom: var(--card-set-gap);
-	margin-left: var(--card-set-gap);
+	    margin-left: var(--card-set-gap);
 
 }
 

@@ -330,15 +330,14 @@ margin-bottom: 72px;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
-/* display: flex;
-align-items: center; */
+ display: flex;
+align-items: center; 
 letter-spacing: 0.03em;
 /* text-transform: uppercase; */
 }
 footer {
     background-color: var(--primary-text-color); 
 color: var( --title-text-color);
-height: 310px;
 padding: 100px;
 
 }

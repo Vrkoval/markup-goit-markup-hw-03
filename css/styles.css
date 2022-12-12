@@ -39,7 +39,7 @@ img {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-    gap: 24px;
+   
 }
 .link {
 	text-decoration: none;
@@ -339,7 +339,7 @@ letter-spacing: 0.03em;
 footer {
     background-color: var(--primary-text-color); 
 color: var( --title-text-color);
-padding: 100px;
+padding: 100px 0;
 
 }
 

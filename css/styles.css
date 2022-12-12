@@ -410,8 +410,7 @@ text-decoration: none;
 	flex-basis: calc(100% / 3 - 2 var(--card-set-gap));
     	margin-bottom: var(--card-set-gap);
 	    margin-left: var(--card-set-gap);
-        gap: 24px;
-
+       
 }
 .filter-list:last-child{
     margin-right: 0px;
@@ -420,7 +419,7 @@ text-decoration: none;
   .filter-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
      margin-bottom: 72px;
    
   }

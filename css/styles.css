@@ -113,8 +113,8 @@ body{
 }
 .nav-link:hover,.nav-link:focus {color: var(--link-color)} 
 
- .menu-nav {
-    margin-left: 0;
+ .main-nav {
+    margin-right: auto;
         }
      .site-nav .list {
         list-style: none;

@@ -411,6 +411,7 @@ text-decoration: none;
     flex-basis: calc((100% - 48px) / 3);
     	margin-bottom: var(--card-set-gap);
 	    margin-left: var(--card-set-gap);
+        margin-right: 0pt;
        
 }
 .filter-list:last-child{

@@ -413,6 +413,9 @@ text-decoration: none;
         gap: 24px;
 
 }
+.filter-list:last-child{
+    margin-right: 0px;
+}
 
   .filter-list {
     display: flex;

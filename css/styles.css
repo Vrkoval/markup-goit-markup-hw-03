@@ -409,6 +409,9 @@ text-decoration: none;
 
 .portfolio-list > .item {
 	    flex-basis: calc((100% - 48px) / 3);
+        /* padding: 32px 16px; */
+    border: 0.5px solid #F4F4FD;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
        
 
@@ -459,9 +462,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 
 .item {
-    padding: 32px 16px;
-    border: 0.5px solid #F4F4FD;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    
 }
 
     

@@ -400,11 +400,11 @@ text-decoration: none;
     
 }
 .portfolio-list {
-	/* margin-bottom: calc(-1 * var(--card-set-gap));
-	margin-left: calc(-1 * var(--card-set-gap)); */
+	
     display: flex;
 	flex-wrap: wrap;
-    gap: 24 px;
+    column-gap: 24 px;
+row-gap: 48px;
 }
 
 .portfolio-list > .item {

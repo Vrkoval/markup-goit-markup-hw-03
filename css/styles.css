@@ -404,7 +404,7 @@ text-decoration: none;
 	margin-left: calc(-1 * var(--card-set-gap));
     display: flex;
 	flex-wrap: wrap;
-    gap: 24 px
+    gap: 24 px;
 }
 
 .portfolio-list > .item {

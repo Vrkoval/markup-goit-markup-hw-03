@@ -447,13 +447,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 } 
 .list-ready{
     padding: 32px 16px;
-    /* border-bottom: 0,5px solid var(--primary-text-color); */
-    /* border-bottom: 0.5px solid #F4F4FD;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
-}
+    }
 .examples-title {
     color: var(--title-text-color);
-    margin-bottom: 0;
+    margin-bottom: 8;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;

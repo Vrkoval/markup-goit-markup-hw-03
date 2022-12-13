@@ -396,7 +396,7 @@ text-decoration: none;
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-    gap: 24 px;
+    /* gap: 24 px; */
     
 }
 .portfolio-list {
@@ -411,13 +411,13 @@ text-decoration: none;
     margin-bottom: 24 px; 
     margin-left: 24 px;
 } */
-/* .portfolio-list list > .item {
+.portfolio-list list > .item {
 	/* flex-basis: calc(100% / 3 - 2 var(--card-set-gap)); */
     flex-basis: calc((100% - 48px) / 3);
     	margin-bottom: var(--card-set-gap);
 	    margin-left: var(--card-set-gap);
 }
-        */
+       
 /* }
 .filter-list:last-child{
     margin-right: 0px;

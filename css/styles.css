@@ -189,12 +189,7 @@ margin-bottom: 48px;
         text-align: center;
          gap: 10px;
         }
-/* button:hover, 
-button:focus {color: var(--primary-white-color);
-background-color: var(--link-color);}
-button:active {background-color: #404BBF;
 
-} */
 
 .hidden-title {position: fixed;
     transform: scale(0);
@@ -254,7 +249,7 @@ margin-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
     list-style: none ;
-     margin-left: calc(-1 * var(--card-gap));
+     margin-left: calc(-1 * 24px);
 }
  
 

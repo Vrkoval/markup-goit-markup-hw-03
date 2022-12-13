@@ -189,11 +189,12 @@ margin-bottom: 48px;
         text-align: center;
          gap: 10px;
         }
-.button:hover, .button:focus {color: var(--primary-white-color);
+/* button:hover, 
+button:focus {color: var(--primary-white-color);
 background-color: var(--link-color);}
-.button:active {background-color: #404BBF;
+button:active {background-color: #404BBF;
 
-}
+} */
 
 .hidden-title {position: fixed;
     transform: scale(0);
@@ -443,7 +444,7 @@ text-decoration: none;
 } 
 .list-ready{
     padding: 32px 16px;
-    border-bottom: bottom: 0,5px solid var(--secondary-bg-color);
+    border-bottom: 0,5px solid var(--secondary-bg-color);
 }
 .examples-title {
     color: var(--title-text-color);

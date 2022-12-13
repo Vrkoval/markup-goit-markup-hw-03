@@ -406,11 +406,11 @@ text-decoration: none;
 	flex-wrap: wrap;
 
 }
-.item {
+/* .item {
     flex-basis: calc((100% - 48px) / 3);
     margin-bottom: 24 px; 
-    margin-left: 24px;
-}
+    margin-left: 24 px;
+} */
 .portfolio-list list > .item {
 	/* flex-basis: calc(100% / 3 - 2 var(--card-set-gap)); */
     flex-basis: calc((100% - 48px) / 3);

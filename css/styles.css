@@ -91,7 +91,7 @@ body{
         color: var(--title-text-color);
           }
 .logoweb { 
-     color: var(- logo-link-color); 
+     color: var(--link-color); 
      text-decoration: none;
         } 
  .logostudio{
@@ -227,7 +227,7 @@ margin-bottom: 8px;
     }
 
 .feature-list>.item {
-    flex-basis: calc(100%/4 -var(--card-gap));
+    flex-basis: calc(100%/4 - var(--card-gap));
    margin-left:var(--card-gap);
    }
     .description {

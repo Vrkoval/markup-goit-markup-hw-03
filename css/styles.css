@@ -394,9 +394,7 @@ text-decoration: none;
     row-gap: 48px;
     column-gap: 24px;
        }
-/* .portfolio-list li.item:nth-child(3n) {
-    margin-right: 0px;
-} */
+
 .portfolio-list > .item {
 	    flex-basis: calc((100% - 48px) / 3);
         border: 0.5px solid #F4F4FD;
@@ -435,9 +433,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
         margin-right: 24px;
   }
 
-  .filter-nav-button:not(:last-child) {
-        margin-right:0pt;
-  }
+   .filter-nav-button:last-child{
+    margin-right:0pt;
+   }
+       
+ 
 .button-filter:hover,
 .button-filter:focus {
     background-color: var(--link-color);

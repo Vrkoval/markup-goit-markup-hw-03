@@ -399,14 +399,16 @@ text-decoration: none;
 /* .portfolio-list li.item:nth-child(3n) {
     margin-right: 0px;
 } */
-.portfolio-list > .item {
+.portfolio-list > .portfolio-item {
 	    flex-basis: calc((100% - 48px) / 3);
         /* border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
 outline: 1px solid red;
     }
-     
-
+   .portfolio-item :not(:nth-child(3n)){
+    margin-right: 24px;
+}  
+   
   .filter-list {
     display: flex;
          margin-bottom: 72px;

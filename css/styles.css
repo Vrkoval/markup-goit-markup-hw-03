@@ -438,6 +438,9 @@ outline: 1px solid red;
     margin-right: 24px;
   }
 
+  .filter-nav-button:not (:last-child) {
+        margin-right 0;
+  }
 .button-filter:hover,
 .button-filter:focus {
     background-color: var(--link-color);

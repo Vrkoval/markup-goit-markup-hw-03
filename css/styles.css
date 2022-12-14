@@ -400,7 +400,7 @@ text-decoration: none;
 	flex-wrap: wrap;
     column-gap: 24 px;
     row-gap: 48 px;
-    margin-left: calc(-1 * 24px);
+    margin-right: 0px;
 }
 
 .portfolio-work > .item {

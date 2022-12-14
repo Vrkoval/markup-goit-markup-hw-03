@@ -415,10 +415,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
 
   .filter-list {
     display: flex;
-    flex-wrap: wrap;
-     margin-bottom: 72px;
+         margin-bottom: 72px;
    justify-content: center;
-  }
+      align-items: center;
+    justify-content: center;
+      }
+  
   
    
   .button-filter {

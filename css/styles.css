@@ -392,8 +392,8 @@ text-decoration: none;
    padding: 0;
 	display: flex;
 	flex-wrap: wrap;
-    row-gap: 48 px;
-    column-gap: 24 px;
+    row-gap: 48px;
+    column-gap: 24px;
     outline: 1px solid red;
     }
 /* .portfolio-list li.item:nth-child(3n) {

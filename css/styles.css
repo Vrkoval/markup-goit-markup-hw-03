@@ -387,15 +387,15 @@ text-decoration: none;
    .portfolio-section{
     padding-top: 96px;
     padding-bottom: 120px;
-    margin-top: auto;
+    margin: auto;
 }
-/* .list {
+.list {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
     
     
-} */
+}
 .portfolio-list{
    margin: 0;
    padding: 0;

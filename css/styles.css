@@ -259,12 +259,9 @@ margin-bottom: 72px;
     flex-basis:calc(100% / 3 - var(--card-gap ));
 } 
 
-
-
 .team {
     background-color: #F4F4FD;
 }
-
 
 .our-team-title{
 font-size: 36px;
@@ -287,7 +284,6 @@ margin-bottom: 72px;
     list-style: none;
 }
 
-
 .team-item:last-child {
     margin-right: 0px;
 }
@@ -295,7 +291,6 @@ margin-bottom: 72px;
 .person-card-content{
     padding: 32px 16px;
 }
-
 
 .person-name-heading{
     font-weight: 600;
@@ -374,26 +369,23 @@ color: var(--link-color);
 text-decoration: none;
 }
 
-
-
 .logorweb:hover,.footer-logo:hover, .logoname:focus, .footer-logo:focus {
     color: var(--link-color);
     }
-  
-   
-   
+     
    /* Portfolio */
    
    .portfolio-section{
     padding-top: 96px;
     padding-bottom: 120px;
     margin: auto;
+    outline: 1px solid red;
 }
 .list {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
-    
+    outline: 1px solid red;
     
 }
 .portfolio-list{
@@ -403,6 +395,7 @@ text-decoration: none;
 	flex-wrap: wrap;
     row-gap: 48 px;
     column-gap: 24 px;
+    outline: 1px solid red;
     }
 /* .portfolio-list li.item:nth-child(3n) {
     margin-right: 0px;
@@ -411,6 +404,7 @@ text-decoration: none;
 	    flex-basis: calc((100% - 48px) / 3);
         /* border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
+outline: 1px solid red;
     }
      
 
@@ -420,6 +414,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
    justify-content: center;
       align-items: center;
     justify-content: center;
+    outline: 1px solid red;
       }
   
   
@@ -435,8 +430,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); */
         cursor: pointer;
         padding: 12px 24px;
         border-radius: 4px;
+        outline: 1px solid red;
   }
   .filter-list .filter-nav-button:not(last-child) {
+    outline: 1px solid red;
     margin-right: 24px;
   }
 

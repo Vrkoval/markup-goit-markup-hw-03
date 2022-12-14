@@ -433,7 +433,7 @@ outline: 1px solid red;
         border-radius: 4px;
         outline: 1px solid red;
   }
-  .filter-list .filter-nav-button:not(last-child) {
+  .filter-list >.filter-nav-button:not(last-child) {
     outline: 1px solid red;
     margin-right: 24px;
   }

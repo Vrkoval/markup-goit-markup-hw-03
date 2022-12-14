@@ -387,22 +387,23 @@ text-decoration: none;
    .portfolio-section{
     padding-top: 96px;
     padding-bottom: 120px;
+    margin-top: auto;
 }
-.list {
+/* .list {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
     
     
-}
+} */
 .portfolio-list{
-   
-	    display: flex;
+   margin: 0;
+   padding: 0;
+	display: flex;
 	flex-wrap: wrap;
     row-gap: 48 px;
     column-gap: 24 px;
-    
-}
+    }
 /* .portfolio-list li.item:nth-child(3n) {
     margin-right: 0px;
 } */

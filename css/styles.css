@@ -404,7 +404,7 @@ text-decoration: none;
     column-gap: 24 px;
     
 }
-.portfolio-list > .item:nth-child(3n) {
+.portfolio-list li.item:nth-child(3n) {
     margin-right: 0px;
 }
 .portfolio-list > .item {
